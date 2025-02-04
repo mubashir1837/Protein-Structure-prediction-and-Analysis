@@ -2,6 +2,7 @@ streamlit
 py3Dmol
 matplotlib
 seaborn
+plotly
 pandas
 requests
 numpy
