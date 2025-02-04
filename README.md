@@ -3,7 +3,7 @@
 ![ProteinScape Banner](logo.jpg)
 
 ## 🚀 Overview
-**ProteinScape** is an advanced AI-powered tool for **protein structure prediction, molecular analysis, and sequence visualization**. It leverages cutting-edge **bioinformatics, deep learning, and interactive visualizations** to provide insights into protein sequences and structures.
+**ProteinAnalyzer** is an advanced AI-powered tool for **protein structure prediction, molecular analysis, and sequence visualization**. It leverages cutting-edge **bioinformatics, deep learning, and interactive visualizations** to provide insights into protein sequences and structures.
 
 ## 🎯 Features
 - 🔬 **Protein Structure Prediction** using AI models
