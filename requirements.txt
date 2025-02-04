@@ -10,4 +10,4 @@ stmol
 ipython-genutils
 scikit-learn
 joblib
-Bio.SeqUtils
+biopython
