@@ -11,3 +11,4 @@ ipython-genutils
 scikit-learn
 joblib
 biopython
+rdkit
