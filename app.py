@@ -111,23 +111,50 @@ def plot_ramachandran():
     )
     st.plotly_chart(fig)
 
-# Set up Streamlit app
-st.set_page_config(page_title="Protein-Prediction", page_icon="❤️", layout="wide", initial_sidebar_state="expanded")
+
 st.sidebar.image('./logo.jpg', width=200)
 st.sidebar.markdown(
     """
-    <h3 style='color:rgb(14, 156, 128);'>🧬 ProteinScape</h3>
+    <h3 style='color:rgb(14, 156, 128);'>🧬 Protein Analyzer</h3>
     <p style='color:rgb(16, 143, 143);'>Advanced Protein Structure Prediction & Visualization</p>
+    
     """,
     unsafe_allow_html=True
 )
 
 
+st.sidebar.markdown(
+    """
+    <div style="text-align: left; padding: 10px; color:rgb(14, 156, 128); background-color: white; border-radius: 10px; margin-top: 20px;">
+        <p>
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="25">
+            <a href="https://www.linkedin.com/in/mubashirali3/" target="_blank" style="text-decoration: none; color: black; font-weight: bolder;"> LinkedIn</a>
+        </p>
+        <p>
+            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="25">
+            <a href="https://github.com/mubashir1837" target="_blank" style="text-decoration: none; color: black; font-weight: bolder;"> GitHub</a>
+        </p>
+        <p>
+            <img src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png" width="25">
+            <a href="https://www.instagram.com/code_with_bismillah/" target="_blank" style="text-decoration: none; color: black; font-weight: bolder;"> Instagram</a>
+        </p>
+        <p>
+            <img src="https://cdn-icons-png.flaticon.com/512/1384/1384053.png" width="25">
+            <a href="https://www.facebook.com/codewithbismilah" target="_blank" style="text-decoration: none; color: black; font-weight: bolder;"> Facebook</a>
+        </p>
+        <p>
+            <img src="https://cdn-icons-png.flaticon.com/512/1006/1006771.png" width="25">
+            <a href="https://mubashir-a.vercel.app" target="_blank" style="text-decoration: none; color: black; font-weight: bolder;"> Portfolio</a>
+        </p>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
 if 'pdb_str' not in st.session_state:
     st.session_state.pdb_str = ""
 
-st.title("ProteinAnlyzer: AI-Powered Protein Analysis")
+st.title("ProteinAnalyzer: AI-Powered Protein Analysis")
 st.write("Explore protein structures with cutting-edge AI predictions and visualizations")
 
 tab1, tab2, tab3 = st.tabs(["Structure Prediction", "Molecular Analysis", "Sequence Tools"])
