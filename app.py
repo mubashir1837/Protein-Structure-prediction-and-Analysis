@@ -111,6 +111,8 @@ def plot_ramachandran():
     )
     st.plotly_chart(fig)
 
+# Set up Streamlit app
+st.set_page_config(page_title="Protein-Prediction", page_icon="❤️", layout="wide", initial_sidebar_state="expanded")
 st.sidebar.image('./logo.jpg', width=200)
 st.sidebar.markdown(
     """
@@ -119,6 +121,8 @@ st.sidebar.markdown(
     """,
     unsafe_allow_html=True
 )
+
+
 
 if 'pdb_str' not in st.session_state:
     st.session_state.pdb_str = ""
