@@ -367,9 +367,11 @@ The model may perform poorly when:
 If you use ProteinAnalyzer in your research, please cite:
 
 ```bibtex
-@software{proteinanalyzer2024,
-  author = {Ali, Mubashir},
-  title = {ProteinAnalyzer: AI-Powered Protein Structure Prediction},
-  year = {2024},
-  url = {https://github.com/yourusername/proteinanalyzer}
+@article{mubashir_ali_2025,
+	title={Protein Structure prediction and Analysis},
+	url={https://www.kaggle.com/m/542630},
+	DOI={10.34740/KAGGLE/M/542630},
+	publisher={Kaggle},
+	author={Mubashir Ali},
+	year={2025}
 }
