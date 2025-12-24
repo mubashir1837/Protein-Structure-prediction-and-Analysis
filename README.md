@@ -1,4 +1,6 @@
-### Input/Output Specifications
+<a href="https://www.kaggle.com/models/mubashir1837/protein-structure-prediction-and-analysis/">Complete README: Protein-Structure-prediction-and-Analysis
+</a>
+
 
 **Input Shape:**
 - Amino acid sequence as string
