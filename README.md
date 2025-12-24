@@ -366,6 +366,8 @@ The model may perform poorly when:
 
 If you use ProteinAnalyzer in your research, please cite:
 
+Mubashir Ali. (2025). Protein Structure prediction and Analysis. Kaggle. https://doi.org/10.34740/KAGGLE/M/542630
+
 ```bibtex
 @article{mubashir_ali_2025,
 	title={Protein Structure prediction and Analysis},
